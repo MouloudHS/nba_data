@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Prediction Form</title>
+</head>
+<body>
+    <h1>Player Prediction Form</h1>
+    <form action="/predict" method="POST">
+        <label for="GP">Games Played (GP):</label><br>
+        <input type="number" id="GP" name="GP" step="0.1" required><br>
+
+        <label for="MIN">Minutes Played (MIN):</label><br>
+        <input type="number" id="MIN" name="MIN" step="0.1" required><br>
+
+        <label for="PTS">Points Scored (PTS):</label><br>
+        <input type="number" id="PTS" name="PTS" step="0.1" required><br>
+
+        <label for="FGM">Field Goals Made (FGM):</label><br>
+        <input type="number" id="FGM" name="FGM" step="0.1" required><br>
+
+        <label for="FGA">Field Goals Attempted (FGA):</label><br>
+        <input type="number" id="FGA" name="FGA" step="0.1" required><br>
+
+        <label for="FG%">Field Goal Percentage (FG%):</label><br>
+        <input type="number" id="FG%" name="FG%" step="0.1" required><br>
+
+        <label for="3P Made">Three-Point Shots Made (3P Made):</label><br>
+        <input type="number" id="3P Made" name="3P Made" step="0.1" required><br>
+
+        <label for="3PA">Three-Point Shots Attempted (3PA):</label><br>
+        <input type="number" id="3PA" name="3PA" step="0.1" required><br>
+
+        <label for="3P%">Three-Point Percentage (3P%):</label><br>
+        <input type="number" id="3P%" name="3P%" step="0.1" required><br>
+
+        <label for="FTM">Free Throws Made (FTM):</label><br>
+        <input type="number" id="FTM" name="FTM" step="0.1" required><br>
+
+        <label for="FTA">Free Throws Attempted (FTA):</label><br>
+        <input type="number" id="FTA" name="FTA" step="0.1" required><br>
+
+        <label for="FT%">Free Throw Percentage (FT%):</label><br>
+        <input type="number" id="FT%" name="FT%" step="0.1" required><br>
+
+        <label for="OREB">Offensive Rebounds (OREB):</label><br>
+        <input type="number" id="OREB" name="OREB" step="0.1" required><br>
+
+        <label for="DREB">Defensive Rebounds (DREB):</label><br>
+        <input type="number" id="DREB" name="DREB" step="0.1" required><br>
+
+        <label for="REB">Total Rebounds (REB):</label><br>
+        <input type="number" id="REB" name="REB" step="0.1" required><br>
+
+        <label for="AST">Assists (AST):</label><br>
+        <input type="number" id="AST" name="AST" step="0.1" required><br>
+
+        <label for="STL">Steals (STL):</label><br>
+        <input type="number" id="STL" name="STL" step="0.1" required><br>
+
+        <label for="BLK">Blocks (BLK):</label><br>
+        <input type="number" id="BLK" name="BLK" step="0.1" required><br>
+
+        <label for="TOV">Turnovers (TOV):</label><br>
+        <input type="number" id="TOV" name="TOV" step="0.1" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
